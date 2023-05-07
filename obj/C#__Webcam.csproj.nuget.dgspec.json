@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Foxconn.AI\\C#_Camera\\C#__Webcam\\C#__Webcam.csproj": {}
+  },
+  "projects": {
+    "D:\\Foxconn.AI\\C#_Camera\\C#__Webcam\\C#__Webcam.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Foxconn.AI\\C#_Camera\\C#__Webcam\\C#__Webcam.csproj",
+        "projectName": "TA_Webcam",
+        "projectPath": "D:\\Foxconn.AI\\C#_Camera\\C#__Webcam\\C#__Webcam.csproj",
+        "packagesPath": "C:\\Users\\tuana\\.nuget\\packages\\",
+        "outputPath": "D:\\Foxconn.AI\\C#_Camera\\C#__Webcam\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\tuana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Emgu.CV": {
+              "target": "Package",
+              "version": "[4.7.0.5276, )"
+            },
+            "Emgu.CV.Bitmap": {
+              "target": "Package",
+              "version": "[4.7.0.5276, )"
+            },
+            "Emgu.CV.runtime.windows": {
+              "target": "Package",
+              "version": "[4.7.0.5276, )"
+            },
+            "EmguEx": {
+              "target": "Package",
+              "version": "[4.5.5, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
