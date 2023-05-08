@@ -76,6 +76,7 @@ namespace C___Webcam
     {
         /* Emgu Install:
          - Emgu.CV.runtime.windows
+         - Emgu.CV.Bitmap
          - If you are targeting .Net Framework, when using Emgu.CV.runtime.windows(.dldt / .cuda / .cuda.dldt) nuget packages for windows, 
             please set the build architecture to either "x86" or "x64". Do not set the architecture to "Any CPU" 
             Targeting .Net Framework: (https://www.emgu.com/wiki/index.php/Download_And_Installation#Using_the_Downloadable_packages)
